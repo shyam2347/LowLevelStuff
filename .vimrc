@@ -7,3 +7,4 @@ set expandtab
 syntax on
 set pastetoggle=<F2>
 cmap w!! w !sudo tee > /dev/null %
+nnoremap <F3> :set hlsearch!<CR>
